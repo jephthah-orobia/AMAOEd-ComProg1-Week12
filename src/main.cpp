@@ -17,10 +17,13 @@ int main()
   float floatArray[20];
   // Declare a reference to the array
   float(&refArray)[20] = floatArray;
-  std::cout << "Values and logical addresses of the uninitialized float array:" << std::endl;
+
+  cout << "Values and logical addresses of the uninitialized float array:"
+       << endl;
   for (int i = 0; i < 20; ++i)
   {
-    std::cout << "floatArray[" << i << "]: Value = " << refArray[i] << ", Address = " << (void *)&refArray[i] << std::endl;
+    cout << "floatArray[" << i << "]: Value = " << refArray[i]
+              << ", Address = " << (void *)&refArray[i] << endl;
     _pause();
     return EXIT_SUCCESS;
   }
