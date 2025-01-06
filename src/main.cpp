@@ -15,13 +15,16 @@ int main()
 {
   // Declare an uninitialized character array of size 10
   char charArray[10];
+
   // Declare a pointer pointing to the array
   char *ptr = charArray;
 
-  cout << "Values and logical addresses of the uninitialized character array:" << endl;
+  cout << "Values and logical addresses of the uninitialized character array:"
+       << endl;
   for (int i = 0; i < 10; ++i)
   {
-    cout << "charArray[" << i << "]: Value = " << charArray[i] << ", Address = " << (void *)&charArray[i] << endl;
+    cout << "charArray[" << i << "]: Value = " << charArray[i]
+         << ", Address = " << (void *)&charArray[i] << endl;
   }
   cout << "\nPointer to the array:" << endl;
   cout << "ptr: Value = " << (void *)ptr << ", Address = " << &ptr << endl;
