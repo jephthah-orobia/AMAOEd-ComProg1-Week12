@@ -1,26 +1,7 @@
-# C++ Programming Language | VS Code
+# AMAOEd ITE7101: Computer Programming
+## Week 12 - Laboratory Exercise 12
 
-This repository contains a development environment for Visual Studio code to be used by C++ Programming Language of AMA Online Education.
-
-**Table of Contents**
-
-- [Getting Started](docs/getting-started/README.md)
-  - [Dev Container](docs/getting-started/dev-container/README.md)
-    - [Installing the Pre-requisites](docs/getting-started/dev-container/README.md#installing-the-pre-requisites)
-      - [Windows](docs/getting-started/dev-container/windows.md)
-      - [macOS](docs/getting-started/dev-container/osx.md)
-      - [Linux](docs/getting-started/dev-container/linux.md)
-    - [Configuring the Visual Studio Code](docs/getting-started/dev-container/README.md#configuring-the-visual-studio-code)
-    - [Cloning the Git Repository](docs/getting-started/dev-container/README.md#cloning-the-git-repository)
-    - [Opening in Dev Container](docs/getting-started/dev-container/README.md#opening-in-dev-container)
-  - [Bare Metal](docs/getting-started/bare-metal/README.md)
-    - [Installing the Pre-requisites](docs/getting-started/bare-metal/README.md#installing-the-pre-requisites)
-      - [Windows](docs/getting-started/bare-metal/windows.md)
-      - [macOS](docs/getting-started/bare-metal/osx.md)
-      - [Linux](docs/getting-started/bare-metal/linux.md)
-    - [Configuring the Visual Studio Code](docs/getting-started/bare-metal/README.md#configuring-the-visual-studio-code)
-    - [Cloning the Git Repository](docs/getting-started/bare-metal/README.md#cloning-the-git-repository)
-    - [Opening in Bare Metal](docs/getting-started/bare-metal/README.md#opening-in-bare-metal)
-- [Maintenace](docs/maintenance/README.md)
-  - [Updating the CMake Version](docs/maintenance/README.md#updating-the-cmake-version)
-  - [Updating the Dev Container Image](docs/maintenance/README.md#updating-the-dev-container-image)
+1.	Write a program that will display the value and logical address of an integer variable with an initial value of 900.
+2.	Write a program that will display the value and logical address of an uninitialized character array with size ten (10) and a pointer pointing to the array. (Hint: you may need to perform some casting.)
+3.	Write a program that will display the value and logical address of an uninitialized float array with size twenty (20) and a reference pointing to the array.
+4.	What can you conclude from this activity?
