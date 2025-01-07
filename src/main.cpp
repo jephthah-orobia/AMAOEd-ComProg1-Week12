@@ -24,7 +24,7 @@ int main()
   {
     cout << "floatArray[" << i << "]: Value = " << refArray[i]
               << ", Address = " << (void *)&refArray[i] << endl;
-    _pause();
-    return EXIT_SUCCESS;
   }
+  _pause();
+  return EXIT_SUCCESS;
 }
